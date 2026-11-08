@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "lat.events/latino-events",
+  "description": "Find upcoming concerts, festivals and cultural events across Latin America.",
+  "title": "Latino Events (events.lat)",
+  "version": "0.1.0",
+  "websiteUrl": "https://events.lat",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ojlsoqhibryhvuyltwpi.supabase.co/functions/v1/mcp"
+    }
+  ]
+}
